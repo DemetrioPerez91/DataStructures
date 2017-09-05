@@ -17,7 +17,8 @@
 		CE283A8E1F5F370800922B2E /* QueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A8D1F5F370800922B2E /* QueueViewController.swift */; };
 		CE283A911F5F372400922B2E /* StackObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A901F5F372400922B2E /* StackObject.swift */; };
 		CE283A931F5F375300922B2E /* QueueObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A921F5F375300922B2E /* QueueObject.swift */; };
-		CE283A951F5F376B00922B2E /* LinkedListObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A941F5F376B00922B2E /* LinkedListObject.swift */; };
+		CE283A981F5F4C4000922B2E /* List.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A971F5F4C4000922B2E /* List.swift */; };
+		CE283A9A1F5F4C4A00922B2E /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A991F5F4C4A00922B2E /* Node.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +46,8 @@
 		CE283A8D1F5F370800922B2E /* QueueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueViewController.swift; sourceTree = "<group>"; };
 		CE283A901F5F372400922B2E /* StackObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackObject.swift; sourceTree = "<group>"; };
 		CE283A921F5F375300922B2E /* QueueObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = QueueObject.swift; path = ../QueueObject.swift; sourceTree = "<group>"; };
-		CE283A941F5F376B00922B2E /* LinkedListObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LinkedListObject.swift; path = ../LinkedListObject.swift; sourceTree = "<group>"; };
+		CE283A971F5F4C4000922B2E /* List.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = List.swift; sourceTree = "<group>"; };
+		CE283A991F5F4C4A00922B2E /* Node.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,9 +122,10 @@
 		CE283A961F5F377600922B2E /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				CE283A941F5F376B00922B2E /* LinkedListObject.swift */,
 				CE283A921F5F375300922B2E /* QueueObject.swift */,
 				CE283A901F5F372400922B2E /* StackObject.swift */,
+				CE283A971F5F4C4000922B2E /* List.swift */,
+				CE283A991F5F4C4A00922B2E /* Node.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -234,8 +237,9 @@
 			files = (
 				CE283A931F5F375300922B2E /* QueueObject.swift in Sources */,
 				CE283A8E1F5F370800922B2E /* QueueViewController.swift in Sources */,
+				CE283A981F5F4C4000922B2E /* List.swift in Sources */,
+				CE283A9A1F5F4C4A00922B2E /* Node.swift in Sources */,
 				CE283A8A1F5F36E200922B2E /* LinkedListViewController.swift in Sources */,
-				CE283A951F5F376B00922B2E /* LinkedListObject.swift in Sources */,
 				CE283A8C1F5F36FC00922B2E /* StackViewController.swift in Sources */,
 				CE283A911F5F372400922B2E /* StackObject.swift in Sources */,
 				CE283A681F5F341900922B2E /* AppDelegate.swift in Sources */,

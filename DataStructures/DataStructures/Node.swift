@@ -1,5 +1,5 @@
 //
-//  LinkedListObject.swift
+//  Node.swift
 //  DataStructures
 //
 //  Created by User on 9/5/17.
@@ -8,6 +8,6 @@
 
 import UIKit
 
-class LinkedListObject: NSObject {
+class Node: NSObject {
 
 }
