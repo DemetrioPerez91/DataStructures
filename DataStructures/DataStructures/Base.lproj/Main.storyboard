@@ -12,7 +12,7 @@
         <!--Array-->
         <scene sceneID="F7J-nO-NoO">
             <objects>
-                <viewController id="Kj0-mi-mey" sceneMemberID="viewController">
+                <viewController id="Kj0-mi-mey" customClass="ArrayViewController" customModule="DataStructures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="ddY-EH-2jj"/>
                         <viewControllerLayoutGuide type="bottom" id="eXp-uy-cqp"/>
@@ -31,7 +31,7 @@
         <!--LikedList-->
         <scene sceneID="yf2-Bw-SUU">
             <objects>
-                <viewController id="MHR-lW-BE3" userLabel="LikedList" sceneMemberID="viewController">
+                <viewController id="MHR-lW-BE3" userLabel="LikedList" customClass="LinkedListViewController" customModule="DataStructures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Qmg-7D-VZf"/>
                         <viewControllerLayoutGuide type="bottom" id="bsI-P7-3Xl"/>
@@ -50,7 +50,7 @@
         <!--Stack-->
         <scene sceneID="t7E-xK-6Nl">
             <objects>
-                <viewController title="Stack" id="pFl-95-MsN" sceneMemberID="viewController">
+                <viewController title="Stack" id="pFl-95-MsN" customClass="StackViewController" customModule="DataStructures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Dzs-vt-k6R"/>
                         <viewControllerLayoutGuide type="bottom" id="wNp-zx-TrU"/>
@@ -69,7 +69,7 @@
         <!--Queue-->
         <scene sceneID="S07-Hk-CDj">
             <objects>
-                <viewController title="Queue" id="Lfx-LA-nv8" sceneMemberID="viewController">
+                <viewController title="Queue" id="Lfx-LA-nv8" customClass="QueueViewController" customModule="DataStructures" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qUi-pl-Pvm"/>
                         <viewControllerLayoutGuide type="bottom" id="6hr-wM-uVe"/>
