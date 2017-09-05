@@ -12,7 +12,6 @@
 		CE283A6F1F5F341900922B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE283A6E1F5F341900922B2E /* Assets.xcassets */; };
 		CE283A721F5F341900922B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE283A701F5F341900922B2E /* LaunchScreen.storyboard */; };
 		CE283A7D1F5F341900922B2E /* DataStructuresTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A7C1F5F341900922B2E /* DataStructuresTests.swift */; };
-		CE283A881F5F36D500922B2E /* ArrayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A871F5F36D500922B2E /* ArrayViewController.swift */; };
 		CE283A8A1F5F36E200922B2E /* LinkedListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A891F5F36E200922B2E /* LinkedListViewController.swift */; };
 		CE283A8C1F5F36FC00922B2E /* StackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A8B1F5F36FC00922B2E /* StackViewController.swift */; };
 		CE283A8E1F5F370800922B2E /* QueueViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE283A8D1F5F370800922B2E /* QueueViewController.swift */; };
@@ -41,7 +40,6 @@
 		CE283A781F5F341900922B2E /* DataStructuresTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataStructuresTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE283A7C1F5F341900922B2E /* DataStructuresTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructuresTests.swift; sourceTree = "<group>"; };
 		CE283A7E1F5F341900922B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE283A871F5F36D500922B2E /* ArrayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArrayViewController.swift; path = ../ArrayViewController.swift; sourceTree = "<group>"; };
 		CE283A891F5F36E200922B2E /* LinkedListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LinkedListViewController.swift; sourceTree = "<group>"; };
 		CE283A8B1F5F36FC00922B2E /* StackViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackViewController.swift; sourceTree = "<group>"; };
 		CE283A8D1F5F370800922B2E /* QueueViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QueueViewController.swift; sourceTree = "<group>"; };
@@ -112,7 +110,6 @@
 		CE283A8F1F5F371000922B2E /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				CE283A871F5F36D500922B2E /* ArrayViewController.swift */,
 				CE283A891F5F36E200922B2E /* LinkedListViewController.swift */,
 				CE283A8B1F5F36FC00922B2E /* StackViewController.swift */,
 				CE283A8D1F5F370800922B2E /* QueueViewController.swift */,
@@ -241,7 +238,6 @@
 				CE283A951F5F376B00922B2E /* LinkedListObject.swift in Sources */,
 				CE283A8C1F5F36FC00922B2E /* StackViewController.swift in Sources */,
 				CE283A911F5F372400922B2E /* StackObject.swift in Sources */,
-				CE283A881F5F36D500922B2E /* ArrayViewController.swift in Sources */,
 				CE283A681F5F341900922B2E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
