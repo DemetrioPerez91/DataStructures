@@ -10,7 +10,7 @@ import UIKit
 
 class StackObject: NSObject
 {
-    private var deck:[String] = []
+     var deck:[String] = []
     
     private let noCards = "No more cards in deck"
     func push(card:String)

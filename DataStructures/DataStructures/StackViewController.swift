@@ -10,26 +10,60 @@ import UIKit
 
 class StackViewController: UIViewController {
 
+    let stack = StackObject()
+    @IBOutlet weak var deckTextView: UITextView!
+    @IBOutlet weak var topCardLabel: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func pushJack(_ sender: Any)
+    {
+        stack.push(card: "Jack")
+        deckTextView.text = "Jack\n\(deckTextView.text!)"
     }
-    */
+    
+    @IBAction func pushQueen(_ sender: Any)
+    {
+        stack.push(card: "Queen")
+        deckTextView.text = "Queen\n\(deckTextView.text!)"
+    }
+    
+    @IBAction func pushKing(_ sender: Any)
+    {
+        stack.push(card: "King")
+        deckTextView.text = "King\n\(deckTextView.text!)"
+        
+    }
+    
+    @IBAction func pushAce(_ sender: Any)
+    {
+        stack.push(card: "Ace")
+        deckTextView.text = "Ace\n\(deckTextView.text!)"
+       
+    }
+    
+    @IBAction func peekTop(_ sender: Any)
+    {
+        topCardLabel.text = "\(stack.peek()) is on top"
+    }
+    
+    
+    @IBAction func popCard(_ sender: Any)
+    {
+        topCardLabel.text = "\(stack.pop()) was removed from deck"
+        deckTextView.text = ""
+        for card in stack.deck
+        {
+            deckTextView.text = "\(card)\n\(deckTextView.text!)"
+        }
+        
+    }
+    
+    
+    
+    
 
 }
