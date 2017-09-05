@@ -9,5 +9,8 @@
 import UIKit
 
 class Node: NSObject {
+    var next:Node?
+    
+    var value:String?
 
 }
