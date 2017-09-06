@@ -35,9 +35,11 @@ class List: NSObject {
     {
         if self.head == nil
         {
+            
             self.head = Node()
             self.head?.value = value
             self.current = head
+            self.tail = head
             print("\(head?.value)")
             
         }
@@ -119,6 +121,21 @@ class List: NSObject {
         }
         
     }
+    
+    func moveForward()
+    {
+        if current?.next != nil
+        {
+            current = current?.next
+        }
+        else
+        {
+            current = head
+        }
+    }
+    
+    
+    
     func getHead()
     {
     }
