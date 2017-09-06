@@ -10,9 +10,13 @@ import UIKit
 
 class LinkedListViewController: UIViewController {
 
+    var list:List?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        list = List()
         // Do any additional setup after loading the view.
     }
+    
 }

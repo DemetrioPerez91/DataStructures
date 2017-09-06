@@ -11,6 +11,7 @@ import UIKit
 class List: NSObject {
     var head:Node?
     var current:Node?
+    var tail:Node?
     
     var currentValue:String
     {
@@ -93,6 +94,33 @@ class List: NSObject {
             print("The item is \(current.value!)")
             current = current.next
         }
+    }
+    
+    func goToTail()
+    {
+        if tail == nil {
+            if self.head?.next == nil
+            {
+                return
+            }
+            else
+            {
+                var node = self.head?.next
+                while node?.next != nil
+                {
+                    node = node?.next
+                }
+                self.current = node
+            }
+        }
+        else
+        {
+            self.current = tail
+        }
+        
+    }
+    func getHead()
+    {
     }
     
     
