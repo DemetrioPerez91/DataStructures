@@ -10,6 +10,24 @@ import UIKit
 
 class List: NSObject {
     var head:Node?
+    var current:Node?
+    
+    var currentValue:String
+    {
+        get
+        {
+            if let value = current?.value
+            {
+                return "The current value is \(value)"
+            }
+            else
+            {
+                return "This list has no nodes"
+            }
+            
+        }
+    }
+    
     
     
     func insert(value:String)
@@ -18,7 +36,9 @@ class List: NSObject {
         {
             self.head = Node()
             self.head?.value = value
+            self.current = head
             print("\(head?.value)")
+            
         }
         else
         {
@@ -41,6 +61,7 @@ class List: NSObject {
         if value == self.head?.value
         {
             self.head = self.head?.next
+            
         }
         else
         {
@@ -73,4 +94,6 @@ class List: NSObject {
             current = current.next
         }
     }
+    
+    
 }
